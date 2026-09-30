@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dynamic-dexgrasp-lab"
+version = "0.1.0"
+description = "Dexterous grasping tasks and training tools for Isaac Lab."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+
+[tool.setuptools]
+package-dir = {"" = "source"}
+
+[tool.setuptools.packages.find]
+where = ["source"]

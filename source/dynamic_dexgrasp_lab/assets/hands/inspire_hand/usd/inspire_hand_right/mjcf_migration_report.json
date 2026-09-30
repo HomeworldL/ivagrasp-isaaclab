@@ -1,0 +1,777 @@
+{
+  "mjcf_path": "/home/ccs/repositories/dynamic_dexgrasp_lab/source/dynamic_dexgrasp_lab/assets/hands/inspire_hand/xml/inspire_hand_right.xml",
+  "model_name": "inspire_hand_right",
+  "compiler": {
+    "meshdir": null,
+    "autolimits": "true"
+  },
+  "option": {
+    "gravity": "0 0 0",
+    "timestep": 0.001
+  },
+  "contact_excludes": [
+    {
+      "name": "ex_hand_base_link_thumb_proximal_base",
+      "body1": "hand_base_link",
+      "body2": "thumb_proximal_base"
+    },
+    {
+      "name": "ex_thumb_proximal_base_thumb_proximal",
+      "body1": "thumb_proximal_base",
+      "body2": "thumb_proximal"
+    },
+    {
+      "name": "ex_thumb_proximal_thumb_intermediate",
+      "body1": "thumb_proximal",
+      "body2": "thumb_intermediate"
+    },
+    {
+      "name": "ex_thumb_intermediate_thumb_distal",
+      "body1": "thumb_intermediate",
+      "body2": "thumb_distal"
+    },
+    {
+      "name": "ex_thumb_distal_thumb_tip",
+      "body1": "thumb_distal",
+      "body2": "thumb_tip"
+    },
+    {
+      "name": "ex_hand_base_link_index_proximal",
+      "body1": "hand_base_link",
+      "body2": "index_proximal"
+    },
+    {
+      "name": "ex_index_proximal_index_intermediate",
+      "body1": "index_proximal",
+      "body2": "index_intermediate"
+    },
+    {
+      "name": "ex_index_intermediate_index_tip",
+      "body1": "index_intermediate",
+      "body2": "index_tip"
+    },
+    {
+      "name": "ex_hand_base_link_middle_proximal",
+      "body1": "hand_base_link",
+      "body2": "middle_proximal"
+    },
+    {
+      "name": "ex_middle_proximal_middle_intermediate",
+      "body1": "middle_proximal",
+      "body2": "middle_intermediate"
+    },
+    {
+      "name": "ex_middle_intermediate_middle_tip",
+      "body1": "middle_intermediate",
+      "body2": "middle_tip"
+    },
+    {
+      "name": "ex_hand_base_link_ring_proximal",
+      "body1": "hand_base_link",
+      "body2": "ring_proximal"
+    },
+    {
+      "name": "ex_ring_proximal_ring_intermediate",
+      "body1": "ring_proximal",
+      "body2": "ring_intermediate"
+    },
+    {
+      "name": "ex_ring_intermediate_ring_tip",
+      "body1": "ring_intermediate",
+      "body2": "ring_tip"
+    },
+    {
+      "name": "ex_hand_base_link_pinky_proximal",
+      "body1": "hand_base_link",
+      "body2": "pinky_proximal"
+    },
+    {
+      "name": "ex_pinky_proximal_pinky_intermediate",
+      "body1": "pinky_proximal",
+      "body2": "pinky_intermediate"
+    },
+    {
+      "name": "ex_pinky_intermediate_pinky_tip",
+      "body1": "pinky_intermediate",
+      "body2": "pinky_tip"
+    },
+    {
+      "name": "ex_hand_base_link_thumb_proximal",
+      "body1": "hand_base_link",
+      "body2": "thumb_proximal"
+    }
+  ],
+  "geom_rgba": {},
+  "equality_joints": [
+    {
+      "joint1": "thumb_intermediate_joint",
+      "joint2": "thumb_proximal_pitch_joint",
+      "polycoef": [
+        0.0,
+        1.334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    },
+    {
+      "joint1": "thumb_distal_joint",
+      "joint2": "thumb_proximal_pitch_joint",
+      "polycoef": [
+        0.0,
+        0.667,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    },
+    {
+      "joint1": "index_intermediate_joint",
+      "joint2": "index_proximal_joint",
+      "polycoef": [
+        -0.04545,
+        1.06399,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    },
+    {
+      "joint1": "middle_intermediate_joint",
+      "joint2": "middle_proximal_joint",
+      "polycoef": [
+        -0.04545,
+        1.06399,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    },
+    {
+      "joint1": "ring_intermediate_joint",
+      "joint2": "ring_proximal_joint",
+      "polycoef": [
+        -0.04545,
+        1.06399,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    },
+    {
+      "joint1": "pinky_intermediate_joint",
+      "joint2": "pinky_proximal_joint",
+      "polycoef": [
+        -0.04545,
+        1.06399,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    }
+  ],
+  "position_actuators": [
+    {
+      "name": "thumb_proximal_yaw_joint_actuator",
+      "joint": "thumb_proximal_yaw_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0.0 1.308"
+    },
+    {
+      "name": "thumb_proximal_pitch_joint_actuator",
+      "joint": "thumb_proximal_pitch_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0 0.6"
+    },
+    {
+      "name": "index_proximal_joint_actuator",
+      "joint": "index_proximal_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0 1.47"
+    },
+    {
+      "name": "middle_proximal_joint_actuator",
+      "joint": "middle_proximal_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0 1.47"
+    },
+    {
+      "name": "ring_proximal_joint_actuator",
+      "joint": "ring_proximal_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0 1.47"
+    },
+    {
+      "name": "pinky_proximal_joint_actuator",
+      "joint": "pinky_proximal_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0 1.47"
+    }
+  ],
+  "usd_postprocess": {
+    "articulation_root_cleanup": {
+      "articulation_root_paths_before": [
+        "/inspire_hand_right/hand_root/hand_root",
+        "/inspire_hand_right/worldBody"
+      ],
+      "kept_articulation_root_path": "/inspire_hand_right/hand_root/hand_root",
+      "extra_articulation_roots_before": [
+        "/inspire_hand_right/worldBody"
+      ],
+      "removed_articulation_roots": [
+        "/inspire_hand_right/worldBody"
+      ],
+      "articulation_root_paths_after": [
+        "/inspire_hand_right/hand_root/hand_root"
+      ],
+      "remaining_extra_articulation_roots": []
+    },
+    "worldbody_cleanup": {
+      "found": false,
+      "removed": false,
+      "reason": "worldBody missing"
+    },
+    "apply_helper_descendant_cleanup_base": [
+      {
+        "helper_path": "/inspire_hand_right/hand_root/hand_root",
+        "removed_children": [
+          "/inspire_hand_right/hand_root/hand_root/visuals"
+        ]
+      },
+      {
+        "helper_path": "/inspire_hand_right/hand_root/thumb_tip",
+        "removed_children": [
+          "/inspire_hand_right/hand_root/thumb_tip/visuals"
+        ]
+      },
+      {
+        "helper_path": "/inspire_hand_right/hand_root/index_tip",
+        "removed_children": [
+          "/inspire_hand_right/hand_root/index_tip/visuals"
+        ]
+      },
+      {
+        "helper_path": "/inspire_hand_right/hand_root/middle_tip",
+        "removed_children": [
+          "/inspire_hand_right/hand_root/middle_tip/visuals"
+        ]
+      },
+      {
+        "helper_path": "/inspire_hand_right/hand_root/ring_tip",
+        "removed_children": [
+          "/inspire_hand_right/hand_root/ring_tip/visuals"
+        ]
+      },
+      {
+        "helper_path": "/inspire_hand_right/hand_root/pinky_tip",
+        "removed_children": [
+          "/inspire_hand_right/hand_root/pinky_tip/visuals"
+        ]
+      }
+    ],
+    "visual_rgba": {
+      "visual_rgba_applied": 0
+    },
+    "apply_helper_descendant_cleanup_physics": [
+      {
+        "helper_path": "/inspire_hand_right/hand_root/hand_root",
+        "removed_children": [
+          "/inspire_hand_right/hand_root/hand_root/collisions"
+        ]
+      },
+      {
+        "helper_path": "/inspire_hand_right/hand_root/thumb_tip",
+        "removed_children": [
+          "/inspire_hand_right/hand_root/thumb_tip/collisions"
+        ]
+      },
+      {
+        "helper_path": "/inspire_hand_right/hand_root/index_tip",
+        "removed_children": [
+          "/inspire_hand_right/hand_root/index_tip/collisions"
+        ]
+      },
+      {
+        "helper_path": "/inspire_hand_right/hand_root/middle_tip",
+        "removed_children": [
+          "/inspire_hand_right/hand_root/middle_tip/collisions"
+        ]
+      },
+      {
+        "helper_path": "/inspire_hand_right/hand_root/ring_tip",
+        "removed_children": [
+          "/inspire_hand_right/hand_root/ring_tip/collisions"
+        ]
+      },
+      {
+        "helper_path": "/inspire_hand_right/hand_root/pinky_tip",
+        "removed_children": [
+          "/inspire_hand_right/hand_root/pinky_tip/collisions"
+        ]
+      }
+    ],
+    "root_body_mass_fix": {
+      "applied": true,
+      "root_body_path": "/inspire_hand_right/hand_root/hand_root",
+      "mass": 0.0001,
+      "diagonal_inertia": [
+        9.99999993922529e-09,
+        9.99999993922529e-09,
+        9.99999993922529e-09
+      ]
+    },
+    "collision_friction": {
+      "applied_collision_materials": 30
+    },
+    "apply_drive_settings": [
+      "/inspire_hand_right/joints/thumb_proximal_yaw_joint",
+      "/inspire_hand_right/joints/thumb_proximal_pitch_joint",
+      "/inspire_hand_right/joints/index_proximal_joint",
+      "/inspire_hand_right/joints/middle_proximal_joint",
+      "/inspire_hand_right/joints/ring_proximal_joint",
+      "/inspire_hand_right/joints/pinky_proximal_joint"
+    ],
+    "apply_mimic_joints": [
+      {
+        "target_joint_path": "/inspire_hand_right/joints/thumb_intermediate_joint",
+        "reference_joint_path": "/inspire_hand_right/joints/thumb_proximal_pitch_joint",
+        "gearing": -1.334,
+        "offset": 0.0
+      },
+      {
+        "target_joint_path": "/inspire_hand_right/joints/thumb_distal_joint",
+        "reference_joint_path": "/inspire_hand_right/joints/thumb_proximal_pitch_joint",
+        "gearing": -0.667,
+        "offset": 0.0
+      },
+      {
+        "target_joint_path": "/inspire_hand_right/joints/index_intermediate_joint",
+        "reference_joint_path": "/inspire_hand_right/joints/index_proximal_joint",
+        "gearing": -1.06399,
+        "offset": 0.04545
+      },
+      {
+        "target_joint_path": "/inspire_hand_right/joints/middle_intermediate_joint",
+        "reference_joint_path": "/inspire_hand_right/joints/middle_proximal_joint",
+        "gearing": -1.06399,
+        "offset": 0.04545
+      },
+      {
+        "target_joint_path": "/inspire_hand_right/joints/ring_intermediate_joint",
+        "reference_joint_path": "/inspire_hand_right/joints/ring_proximal_joint",
+        "gearing": -1.06399,
+        "offset": 0.04545
+      },
+      {
+        "target_joint_path": "/inspire_hand_right/joints/pinky_intermediate_joint",
+        "reference_joint_path": "/inspire_hand_right/joints/pinky_proximal_joint",
+        "gearing": -1.06399,
+        "offset": 0.04545
+      }
+    ],
+    "contact_excludes": {
+      "applied_filtered_pairs": 18,
+      "skipped_filtered_pairs": 0,
+      "details": [
+        {
+          "name": "ex_hand_base_link_thumb_proximal_base",
+          "body1": "hand_base_link",
+          "body2": "thumb_proximal_base",
+          "body1_prim_path": "/inspire_hand_right/hand_root/hand_base_link",
+          "body2_prim_path": "/inspire_hand_right/hand_root/thumb_proximal_base",
+          "status": "applied"
+        },
+        {
+          "name": "ex_thumb_proximal_base_thumb_proximal",
+          "body1": "thumb_proximal_base",
+          "body2": "thumb_proximal",
+          "body1_prim_path": "/inspire_hand_right/hand_root/thumb_proximal_base",
+          "body2_prim_path": "/inspire_hand_right/hand_root/thumb_proximal",
+          "status": "applied"
+        },
+        {
+          "name": "ex_thumb_proximal_thumb_intermediate",
+          "body1": "thumb_proximal",
+          "body2": "thumb_intermediate",
+          "body1_prim_path": "/inspire_hand_right/hand_root/thumb_proximal",
+          "body2_prim_path": "/inspire_hand_right/hand_root/thumb_intermediate",
+          "status": "applied"
+        },
+        {
+          "name": "ex_thumb_intermediate_thumb_distal",
+          "body1": "thumb_intermediate",
+          "body2": "thumb_distal",
+          "body1_prim_path": "/inspire_hand_right/hand_root/thumb_intermediate",
+          "body2_prim_path": "/inspire_hand_right/hand_root/thumb_distal",
+          "status": "applied"
+        },
+        {
+          "name": "ex_thumb_distal_thumb_tip",
+          "body1": "thumb_distal",
+          "body2": "thumb_tip",
+          "body1_prim_path": "/inspire_hand_right/hand_root/thumb_distal",
+          "body2_prim_path": "/inspire_hand_right/hand_root/thumb_tip",
+          "status": "applied"
+        },
+        {
+          "name": "ex_hand_base_link_index_proximal",
+          "body1": "hand_base_link",
+          "body2": "index_proximal",
+          "body1_prim_path": "/inspire_hand_right/hand_root/hand_base_link",
+          "body2_prim_path": "/inspire_hand_right/hand_root/index_proximal",
+          "status": "applied"
+        },
+        {
+          "name": "ex_index_proximal_index_intermediate",
+          "body1": "index_proximal",
+          "body2": "index_intermediate",
+          "body1_prim_path": "/inspire_hand_right/hand_root/index_proximal",
+          "body2_prim_path": "/inspire_hand_right/hand_root/index_intermediate",
+          "status": "applied"
+        },
+        {
+          "name": "ex_index_intermediate_index_tip",
+          "body1": "index_intermediate",
+          "body2": "index_tip",
+          "body1_prim_path": "/inspire_hand_right/hand_root/index_intermediate",
+          "body2_prim_path": "/inspire_hand_right/hand_root/index_tip",
+          "status": "applied"
+        },
+        {
+          "name": "ex_hand_base_link_middle_proximal",
+          "body1": "hand_base_link",
+          "body2": "middle_proximal",
+          "body1_prim_path": "/inspire_hand_right/hand_root/hand_base_link",
+          "body2_prim_path": "/inspire_hand_right/hand_root/middle_proximal",
+          "status": "applied"
+        },
+        {
+          "name": "ex_middle_proximal_middle_intermediate",
+          "body1": "middle_proximal",
+          "body2": "middle_intermediate",
+          "body1_prim_path": "/inspire_hand_right/hand_root/middle_proximal",
+          "body2_prim_path": "/inspire_hand_right/hand_root/middle_intermediate",
+          "status": "applied"
+        },
+        {
+          "name": "ex_middle_intermediate_middle_tip",
+          "body1": "middle_intermediate",
+          "body2": "middle_tip",
+          "body1_prim_path": "/inspire_hand_right/hand_root/middle_intermediate",
+          "body2_prim_path": "/inspire_hand_right/hand_root/middle_tip",
+          "status": "applied"
+        },
+        {
+          "name": "ex_hand_base_link_ring_proximal",
+          "body1": "hand_base_link",
+          "body2": "ring_proximal",
+          "body1_prim_path": "/inspire_hand_right/hand_root/hand_base_link",
+          "body2_prim_path": "/inspire_hand_right/hand_root/ring_proximal",
+          "status": "applied"
+        },
+        {
+          "name": "ex_ring_proximal_ring_intermediate",
+          "body1": "ring_proximal",
+          "body2": "ring_intermediate",
+          "body1_prim_path": "/inspire_hand_right/hand_root/ring_proximal",
+          "body2_prim_path": "/inspire_hand_right/hand_root/ring_intermediate",
+          "status": "applied"
+        },
+        {
+          "name": "ex_ring_intermediate_ring_tip",
+          "body1": "ring_intermediate",
+          "body2": "ring_tip",
+          "body1_prim_path": "/inspire_hand_right/hand_root/ring_intermediate",
+          "body2_prim_path": "/inspire_hand_right/hand_root/ring_tip",
+          "status": "applied"
+        },
+        {
+          "name": "ex_hand_base_link_pinky_proximal",
+          "body1": "hand_base_link",
+          "body2": "pinky_proximal",
+          "body1_prim_path": "/inspire_hand_right/hand_root/hand_base_link",
+          "body2_prim_path": "/inspire_hand_right/hand_root/pinky_proximal",
+          "status": "applied"
+        },
+        {
+          "name": "ex_pinky_proximal_pinky_intermediate",
+          "body1": "pinky_proximal",
+          "body2": "pinky_intermediate",
+          "body1_prim_path": "/inspire_hand_right/hand_root/pinky_proximal",
+          "body2_prim_path": "/inspire_hand_right/hand_root/pinky_intermediate",
+          "status": "applied"
+        },
+        {
+          "name": "ex_pinky_intermediate_pinky_tip",
+          "body1": "pinky_intermediate",
+          "body2": "pinky_tip",
+          "body1_prim_path": "/inspire_hand_right/hand_root/pinky_intermediate",
+          "body2_prim_path": "/inspire_hand_right/hand_root/pinky_tip",
+          "status": "applied"
+        },
+        {
+          "name": "ex_hand_base_link_thumb_proximal",
+          "body1": "hand_base_link",
+          "body2": "thumb_proximal",
+          "body1_prim_path": "/inspire_hand_right/hand_root/hand_base_link",
+          "body2_prim_path": "/inspire_hand_right/hand_root/thumb_proximal",
+          "status": "applied"
+        }
+      ]
+    },
+    "apply_helper_body_cleanup": [
+      {
+        "helper_body_path": "/inspire_hand_right/hand_root/thumb_tip",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/inspire_hand_right/joints/thumb_tip"
+        ]
+      },
+      {
+        "helper_body_path": "/inspire_hand_right/hand_root/index_tip",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/inspire_hand_right/joints/index_tip"
+        ]
+      },
+      {
+        "helper_body_path": "/inspire_hand_right/hand_root/middle_tip",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/inspire_hand_right/joints/middle_tip"
+        ]
+      },
+      {
+        "helper_body_path": "/inspire_hand_right/hand_root/ring_tip",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/inspire_hand_right/joints/ring_tip"
+        ]
+      },
+      {
+        "helper_body_path": "/inspire_hand_right/hand_root/pinky_tip",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/inspire_hand_right/joints/pinky_tip"
+        ]
+      }
+    ]
+  },
+  "usd_path": "/home/ccs/repositories/dynamic_dexgrasp_lab/source/dynamic_dexgrasp_lab/assets/hands/inspire_hand/usd/inspire_hand_right/inspire_hand_right.usd",
+  "output_dir": "/home/ccs/repositories/dynamic_dexgrasp_lab/source/dynamic_dexgrasp_lab/assets/hands/inspire_hand/usd/inspire_hand_right",
+  "hand_profile": "inspire_hand_right",
+  "import_options": {
+    "fix_base": false,
+    "self_collision": true,
+    "make_instanceable": true,
+    "create_physics_scene": false
+  },
+  "articulation_summary": {
+    "num_joints": 12,
+    "num_actuated": 6,
+    "num_mimic": 6,
+    "num_bodies": 14,
+    "body_names": [
+      "hand_base_link",
+      "hand_root",
+      "index_intermediate",
+      "index_proximal",
+      "middle_intermediate",
+      "middle_proximal",
+      "pinky_intermediate",
+      "pinky_proximal",
+      "ring_intermediate",
+      "ring_proximal",
+      "thumb_distal",
+      "thumb_intermediate",
+      "thumb_proximal",
+      "thumb_proximal_base"
+    ],
+    "joints": [
+      {
+        "name": "thumb_proximal_yaw_joint",
+        "path": "/inspire_hand_right/joints/thumb_proximal_yaw_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "thumb_proximal_pitch_joint",
+        "path": "/inspire_hand_right/joints/thumb_proximal_pitch_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "thumb_intermediate_joint",
+        "path": "/inspire_hand_right/joints/thumb_intermediate_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      },
+      {
+        "name": "thumb_distal_joint",
+        "path": "/inspire_hand_right/joints/thumb_distal_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      },
+      {
+        "name": "index_proximal_joint",
+        "path": "/inspire_hand_right/joints/index_proximal_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "index_intermediate_joint",
+        "path": "/inspire_hand_right/joints/index_intermediate_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      },
+      {
+        "name": "middle_proximal_joint",
+        "path": "/inspire_hand_right/joints/middle_proximal_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "middle_intermediate_joint",
+        "path": "/inspire_hand_right/joints/middle_intermediate_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      },
+      {
+        "name": "ring_proximal_joint",
+        "path": "/inspire_hand_right/joints/ring_proximal_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "ring_intermediate_joint",
+        "path": "/inspire_hand_right/joints/ring_intermediate_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      },
+      {
+        "name": "pinky_proximal_joint",
+        "path": "/inspire_hand_right/joints/pinky_proximal_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "pinky_intermediate_joint",
+        "path": "/inspire_hand_right/joints/pinky_intermediate_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      }
+    ],
+    "gravity": null,
+    "articulation_root": "/inspire_hand_right/hand_root/hand_root"
+  }
+}

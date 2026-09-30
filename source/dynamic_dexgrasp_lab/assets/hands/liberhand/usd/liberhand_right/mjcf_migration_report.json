@@ -1,0 +1,1316 @@
+{
+  "mjcf_path": "/home/ccs/repositories/dynamic_dexgrasp_lab/source/dynamic_dexgrasp_lab/assets/hands/liberhand/xml/liberhand_right.xml",
+  "model_name": "liberhand_right",
+  "compiler": {
+    "meshdir": "assets",
+    "autolimits": "true"
+  },
+  "option": {
+    "gravity": "0 0 0",
+    "timestep": 0.001
+  },
+  "contact_excludes": [
+    {
+      "name": "ex_r_palm_f11",
+      "body1": "hand_right_palm",
+      "body2": "hand_right_f11"
+    },
+    {
+      "name": "ex_r_palm_f21",
+      "body1": "hand_right_palm",
+      "body2": "hand_right_f21"
+    },
+    {
+      "name": "ex_r_palm_f31",
+      "body1": "hand_right_palm",
+      "body2": "hand_right_f31"
+    },
+    {
+      "name": "ex_r_palm_f41",
+      "body1": "hand_right_palm",
+      "body2": "hand_right_f41"
+    },
+    {
+      "name": "ex_r_palm_f51",
+      "body1": "hand_right_palm",
+      "body2": "hand_right_f51"
+    },
+    {
+      "name": "ex_r_palm_f12",
+      "body1": "hand_right_palm",
+      "body2": "hand_right_f12"
+    },
+    {
+      "name": "ex_r_palm_f22",
+      "body1": "hand_right_palm",
+      "body2": "hand_right_f22"
+    },
+    {
+      "name": "ex_r_palm_f32",
+      "body1": "hand_right_palm",
+      "body2": "hand_right_f32"
+    },
+    {
+      "name": "ex_r_palm_f42",
+      "body1": "hand_right_palm",
+      "body2": "hand_right_f42"
+    },
+    {
+      "name": "ex_r_palm_f52",
+      "body1": "hand_right_palm",
+      "body2": "hand_right_f52"
+    },
+    {
+      "name": "ex_r_f11_f12",
+      "body1": "hand_right_f11",
+      "body2": "hand_right_f12"
+    },
+    {
+      "name": "ex_r_f12_f13",
+      "body1": "hand_right_f12",
+      "body2": "hand_right_f13"
+    },
+    {
+      "name": "ex_r_f13_f14",
+      "body1": "hand_right_f13",
+      "body2": "hand_right_f14"
+    },
+    {
+      "name": "ex_r_f21_f22",
+      "body1": "hand_right_f21",
+      "body2": "hand_right_f22"
+    },
+    {
+      "name": "ex_r_f22_f23",
+      "body1": "hand_right_f22",
+      "body2": "hand_right_f23"
+    },
+    {
+      "name": "ex_r_f23_f24",
+      "body1": "hand_right_f23",
+      "body2": "hand_right_f24"
+    },
+    {
+      "name": "ex_r_f31_f32",
+      "body1": "hand_right_f31",
+      "body2": "hand_right_f32"
+    },
+    {
+      "name": "ex_r_f32_f33",
+      "body1": "hand_right_f32",
+      "body2": "hand_right_f33"
+    },
+    {
+      "name": "ex_r_f33_f34",
+      "body1": "hand_right_f33",
+      "body2": "hand_right_f34"
+    },
+    {
+      "name": "ex_r_f41_f42",
+      "body1": "hand_right_f41",
+      "body2": "hand_right_f42"
+    },
+    {
+      "name": "ex_r_f42_f43",
+      "body1": "hand_right_f42",
+      "body2": "hand_right_f43"
+    },
+    {
+      "name": "ex_r_f43_f44",
+      "body1": "hand_right_f43",
+      "body2": "hand_right_f44"
+    },
+    {
+      "name": "ex_r_f51_f52",
+      "body1": "hand_right_f51",
+      "body2": "hand_right_f52"
+    },
+    {
+      "name": "ex_r_f52_f53",
+      "body1": "hand_right_f52",
+      "body2": "hand_right_f53"
+    },
+    {
+      "name": "ex_r_f53_f54",
+      "body1": "hand_right_f53",
+      "body2": "hand_right_f54"
+    }
+  ],
+  "geom_rgba": {
+    "hand_right_palm": [
+      0.2,
+      0.2,
+      0.2,
+      1.0
+    ],
+    "hand_right_f11": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f12": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f13": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f14": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f21": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f22": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f23": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f24": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f31": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f32": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f33": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f34": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f41": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f42": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f43": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f44": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f51": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f52": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f53": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ],
+    "hand_right_f54": [
+      0.913725,
+      0.913725,
+      0.847059,
+      1.0
+    ]
+  },
+  "equality_joints": [
+    {
+      "joint1": "hand_right_f14_joint",
+      "joint2": "hand_right_f13_joint",
+      "polycoef": [
+        0.009423,
+        2.051759,
+        -1.313311,
+        0.650234,
+        -0.139774
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    },
+    {
+      "joint1": "hand_right_f24_joint",
+      "joint2": "hand_right_f23_joint",
+      "polycoef": [
+        0.009423,
+        2.051759,
+        -1.313311,
+        0.650234,
+        -0.139774
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    },
+    {
+      "joint1": "hand_right_f33_joint",
+      "joint2": "hand_right_f32_joint",
+      "polycoef": [
+        0.001338,
+        1.412466,
+        -0.421321,
+        0.146794,
+        -0.022447
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    },
+    {
+      "joint1": "hand_right_f34_joint",
+      "joint2": "hand_right_f33_joint",
+      "polycoef": [
+        -0.000471,
+        1.102908,
+        -0.263366,
+        0.025065,
+        -0.007574
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    },
+    {
+      "joint1": "hand_right_f43_joint",
+      "joint2": "hand_right_f42_joint",
+      "polycoef": [
+        0.001871,
+        1.35367,
+        -0.361404,
+        0.068408,
+        0.012166
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    },
+    {
+      "joint1": "hand_right_f44_joint",
+      "joint2": "hand_right_f43_joint",
+      "polycoef": [
+        -0.000471,
+        1.102908,
+        -0.263366,
+        0.025065,
+        -0.007574
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    },
+    {
+      "joint1": "hand_right_f54_joint",
+      "joint2": "hand_right_f53_joint",
+      "polycoef": [
+        0.001018,
+        1.618791,
+        -0.733579,
+        0.366074,
+        -0.086615
+      ],
+      "solref": "0.002 1",
+      "solimp": "0.9 0.99 0.001"
+    }
+  ],
+  "position_actuators": [
+    {
+      "name": "M_hand_right_f11_joint",
+      "joint": "hand_right_f11_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "-0.4 0.4"
+    },
+    {
+      "name": "M_hand_right_f12_joint",
+      "joint": "hand_right_f12_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0.0 1.9"
+    },
+    {
+      "name": "M_hand_right_f13_joint",
+      "joint": "hand_right_f13_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0.0 1.65"
+    },
+    {
+      "name": "M_hand_right_f21_joint",
+      "joint": "hand_right_f21_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "-0.4 0.4"
+    },
+    {
+      "name": "M_hand_right_f22_joint",
+      "joint": "hand_right_f22_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0.0 1.9"
+    },
+    {
+      "name": "M_hand_right_f23_joint",
+      "joint": "hand_right_f23_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0.0 1.65"
+    },
+    {
+      "name": "M_hand_right_f31_joint",
+      "joint": "hand_right_f31_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "-0.4 0.0"
+    },
+    {
+      "name": "M_hand_right_f32_joint",
+      "joint": "hand_right_f32_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0.0 1.65"
+    },
+    {
+      "name": "M_hand_right_f41_joint",
+      "joint": "hand_right_f41_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "-0.4 0.0"
+    },
+    {
+      "name": "M_hand_right_f42_joint",
+      "joint": "hand_right_f42_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0.0 1.6"
+    },
+    {
+      "name": "M_hand_right_f51_joint",
+      "joint": "hand_right_f51_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0.0 1.9"
+    },
+    {
+      "name": "M_hand_right_f52_joint",
+      "joint": "hand_right_f52_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0.0 0.8"
+    },
+    {
+      "name": "M_hand_right_f53_joint",
+      "joint": "hand_right_f53_joint",
+      "kp": 1.0,
+      "forcerange": "-1 1",
+      "ctrlrange": "0.0 1.65"
+    }
+  ],
+  "usd_postprocess": {
+    "articulation_root_cleanup": {
+      "articulation_root_paths_before": [
+        "/liberhand_right/hand_root/hand_root",
+        "/liberhand_right/worldBody"
+      ],
+      "kept_articulation_root_path": "/liberhand_right/hand_root/hand_root",
+      "extra_articulation_roots_before": [
+        "/liberhand_right/worldBody"
+      ],
+      "removed_articulation_roots": [
+        "/liberhand_right/worldBody"
+      ],
+      "articulation_root_paths_after": [
+        "/liberhand_right/hand_root/hand_root"
+      ],
+      "remaining_extra_articulation_roots": []
+    },
+    "worldbody_cleanup": {
+      "found": true,
+      "removed": true,
+      "reason": "removed empty worldBody",
+      "removed_in_layers": [
+        "liberhand_right_base.usd",
+        "liberhand_right_physics.usd"
+      ]
+    },
+    "apply_helper_descendant_cleanup_base": [
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_root",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_root/visuals"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_grasp",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_grasp/visuals"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f14_end",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f14_end/visuals"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f1_eef",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f1_eef/visuals"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f24_end",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f24_end/visuals"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f2_eef",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f2_eef/visuals"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f34_end",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f34_end/visuals"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f3_eef",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f3_eef/visuals"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f44_end",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f44_end/visuals"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f4_eef",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f4_eef/visuals"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f54_end",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f54_end/visuals"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f5_eef",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f5_eef/visuals"
+        ]
+      }
+    ],
+    "visual_rgba": {
+      "visual_rgba_applied": 42
+    },
+    "apply_helper_descendant_cleanup_physics": [
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_root",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_root/collisions"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_grasp",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_grasp/collisions"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f14_end",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f14_end/collisions"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f1_eef",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f1_eef/collisions"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f24_end",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f24_end/collisions"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f2_eef",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f2_eef/collisions"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f34_end",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f34_end/collisions"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f3_eef",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f3_eef/collisions"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f44_end",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f44_end/collisions"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f4_eef",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f4_eef/collisions"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f54_end",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f54_end/collisions"
+        ]
+      },
+      {
+        "helper_path": "/liberhand_right/hand_root/hand_right_f5_eef",
+        "removed_children": [
+          "/liberhand_right/hand_root/hand_right_f5_eef/collisions"
+        ]
+      }
+    ],
+    "root_body_mass_fix": {
+      "applied": true,
+      "root_body_path": "/liberhand_right/hand_root/hand_root",
+      "mass": 0.0001,
+      "diagonal_inertia": [
+        9.99999993922529e-09,
+        9.99999993922529e-09,
+        9.99999993922529e-09
+      ]
+    },
+    "collision_friction": {
+      "applied_collision_materials": 21
+    },
+    "apply_drive_settings": [
+      "/liberhand_right/joints/hand_right_f11_joint",
+      "/liberhand_right/joints/hand_right_f12_joint",
+      "/liberhand_right/joints/hand_right_f13_joint",
+      "/liberhand_right/joints/hand_right_f21_joint",
+      "/liberhand_right/joints/hand_right_f22_joint",
+      "/liberhand_right/joints/hand_right_f23_joint",
+      "/liberhand_right/joints/hand_right_f31_joint",
+      "/liberhand_right/joints/hand_right_f32_joint",
+      "/liberhand_right/joints/hand_right_f41_joint",
+      "/liberhand_right/joints/hand_right_f42_joint",
+      "/liberhand_right/joints/hand_right_f51_joint",
+      "/liberhand_right/joints/hand_right_f52_joint",
+      "/liberhand_right/joints/hand_right_f53_joint"
+    ],
+    "apply_mimic_joints": [
+      {
+        "target_joint_path": "/liberhand_right/joints/hand_right_f14_joint",
+        "reference_joint_path": "/liberhand_right/joints/hand_right_f13_joint",
+        "gearing": -1.0,
+        "offset": 0.0
+      },
+      {
+        "target_joint_path": "/liberhand_right/joints/hand_right_f24_joint",
+        "reference_joint_path": "/liberhand_right/joints/hand_right_f23_joint",
+        "gearing": -1.0,
+        "offset": 0.0
+      },
+      {
+        "target_joint_path": "/liberhand_right/joints/hand_right_f33_joint",
+        "reference_joint_path": "/liberhand_right/joints/hand_right_f32_joint",
+        "gearing": -1.0,
+        "offset": 0.0
+      },
+      {
+        "target_joint_path": "/liberhand_right/joints/hand_right_f34_joint",
+        "reference_joint_path": "/liberhand_right/joints/hand_right_f33_joint",
+        "gearing": -1.0,
+        "offset": 0.0
+      },
+      {
+        "target_joint_path": "/liberhand_right/joints/hand_right_f43_joint",
+        "reference_joint_path": "/liberhand_right/joints/hand_right_f42_joint",
+        "gearing": -1.0,
+        "offset": 0.0
+      },
+      {
+        "target_joint_path": "/liberhand_right/joints/hand_right_f44_joint",
+        "reference_joint_path": "/liberhand_right/joints/hand_right_f43_joint",
+        "gearing": -1.0,
+        "offset": 0.0
+      },
+      {
+        "target_joint_path": "/liberhand_right/joints/hand_right_f54_joint",
+        "reference_joint_path": "/liberhand_right/joints/hand_right_f53_joint",
+        "gearing": -1.0,
+        "offset": 0.0
+      }
+    ],
+    "contact_excludes": {
+      "applied_filtered_pairs": 25,
+      "skipped_filtered_pairs": 0,
+      "details": [
+        {
+          "name": "ex_r_palm_f11",
+          "body1": "hand_right_palm",
+          "body2": "hand_right_f11",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_palm",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f11",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_palm_f21",
+          "body1": "hand_right_palm",
+          "body2": "hand_right_f21",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_palm",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f21",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_palm_f31",
+          "body1": "hand_right_palm",
+          "body2": "hand_right_f31",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_palm",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f31",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_palm_f41",
+          "body1": "hand_right_palm",
+          "body2": "hand_right_f41",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_palm",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f41",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_palm_f51",
+          "body1": "hand_right_palm",
+          "body2": "hand_right_f51",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_palm",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f51",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_palm_f12",
+          "body1": "hand_right_palm",
+          "body2": "hand_right_f12",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_palm",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f12",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_palm_f22",
+          "body1": "hand_right_palm",
+          "body2": "hand_right_f22",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_palm",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f22",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_palm_f32",
+          "body1": "hand_right_palm",
+          "body2": "hand_right_f32",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_palm",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f32",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_palm_f42",
+          "body1": "hand_right_palm",
+          "body2": "hand_right_f42",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_palm",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f42",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_palm_f52",
+          "body1": "hand_right_palm",
+          "body2": "hand_right_f52",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_palm",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f52",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f11_f12",
+          "body1": "hand_right_f11",
+          "body2": "hand_right_f12",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f11",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f12",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f12_f13",
+          "body1": "hand_right_f12",
+          "body2": "hand_right_f13",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f12",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f13",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f13_f14",
+          "body1": "hand_right_f13",
+          "body2": "hand_right_f14",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f13",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f14",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f21_f22",
+          "body1": "hand_right_f21",
+          "body2": "hand_right_f22",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f21",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f22",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f22_f23",
+          "body1": "hand_right_f22",
+          "body2": "hand_right_f23",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f22",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f23",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f23_f24",
+          "body1": "hand_right_f23",
+          "body2": "hand_right_f24",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f23",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f24",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f31_f32",
+          "body1": "hand_right_f31",
+          "body2": "hand_right_f32",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f31",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f32",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f32_f33",
+          "body1": "hand_right_f32",
+          "body2": "hand_right_f33",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f32",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f33",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f33_f34",
+          "body1": "hand_right_f33",
+          "body2": "hand_right_f34",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f33",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f34",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f41_f42",
+          "body1": "hand_right_f41",
+          "body2": "hand_right_f42",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f41",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f42",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f42_f43",
+          "body1": "hand_right_f42",
+          "body2": "hand_right_f43",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f42",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f43",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f43_f44",
+          "body1": "hand_right_f43",
+          "body2": "hand_right_f44",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f43",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f44",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f51_f52",
+          "body1": "hand_right_f51",
+          "body2": "hand_right_f52",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f51",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f52",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f52_f53",
+          "body1": "hand_right_f52",
+          "body2": "hand_right_f53",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f52",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f53",
+          "status": "applied"
+        },
+        {
+          "name": "ex_r_f53_f54",
+          "body1": "hand_right_f53",
+          "body2": "hand_right_f54",
+          "body1_prim_path": "/liberhand_right/hand_root/hand_right_f53",
+          "body2_prim_path": "/liberhand_right/hand_root/hand_right_f54",
+          "status": "applied"
+        }
+      ]
+    },
+    "apply_helper_body_cleanup": [
+      {
+        "helper_body_path": "/liberhand_right/hand_root/hand_right_grasp",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/liberhand_right/joints/hand_right_grasp"
+        ]
+      },
+      {
+        "helper_body_path": "/liberhand_right/hand_root/hand_right_f14_end",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/liberhand_right/joints/hand_right_f14_end"
+        ]
+      },
+      {
+        "helper_body_path": "/liberhand_right/hand_root/hand_right_f1_eef",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/liberhand_right/joints/hand_right_f1_eef"
+        ]
+      },
+      {
+        "helper_body_path": "/liberhand_right/hand_root/hand_right_f24_end",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/liberhand_right/joints/hand_right_f24_end"
+        ]
+      },
+      {
+        "helper_body_path": "/liberhand_right/hand_root/hand_right_f2_eef",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/liberhand_right/joints/hand_right_f2_eef"
+        ]
+      },
+      {
+        "helper_body_path": "/liberhand_right/hand_root/hand_right_f34_end",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/liberhand_right/joints/hand_right_f34_end"
+        ]
+      },
+      {
+        "helper_body_path": "/liberhand_right/hand_root/hand_right_f3_eef",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/liberhand_right/joints/hand_right_f3_eef"
+        ]
+      },
+      {
+        "helper_body_path": "/liberhand_right/hand_root/hand_right_f44_end",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/liberhand_right/joints/hand_right_f44_end"
+        ]
+      },
+      {
+        "helper_body_path": "/liberhand_right/hand_root/hand_right_f4_eef",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/liberhand_right/joints/hand_right_f4_eef"
+        ]
+      },
+      {
+        "helper_body_path": "/liberhand_right/hand_root/hand_right_f54_end",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/liberhand_right/joints/hand_right_f54_end"
+        ]
+      },
+      {
+        "helper_body_path": "/liberhand_right/hand_root/hand_right_f5_eef",
+        "removed_apis": [
+          "RigidBodyAPI",
+          "MassAPI",
+          "PhysxRigidBodyAPI"
+        ],
+        "removed_joint_paths": [
+          "/liberhand_right/joints/hand_right_f5_eef"
+        ]
+      }
+    ]
+  },
+  "usd_path": "/home/ccs/repositories/dynamic_dexgrasp_lab/source/dynamic_dexgrasp_lab/assets/hands/liberhand/usd/liberhand_right/liberhand_right.usd",
+  "output_dir": "/home/ccs/repositories/dynamic_dexgrasp_lab/source/dynamic_dexgrasp_lab/assets/hands/liberhand/usd/liberhand_right",
+  "hand_profile": "liberhand_right",
+  "import_options": {
+    "fix_base": false,
+    "self_collision": true,
+    "make_instanceable": true,
+    "create_physics_scene": false
+  },
+  "articulation_summary": {
+    "num_joints": 20,
+    "num_actuated": 13,
+    "num_mimic": 7,
+    "num_bodies": 22,
+    "body_names": [
+      "hand_right_f11",
+      "hand_right_f12",
+      "hand_right_f13",
+      "hand_right_f14",
+      "hand_right_f21",
+      "hand_right_f22",
+      "hand_right_f23",
+      "hand_right_f24",
+      "hand_right_f31",
+      "hand_right_f32",
+      "hand_right_f33",
+      "hand_right_f34",
+      "hand_right_f41",
+      "hand_right_f42",
+      "hand_right_f43",
+      "hand_right_f44",
+      "hand_right_f51",
+      "hand_right_f52",
+      "hand_right_f53",
+      "hand_right_f54",
+      "hand_right_palm",
+      "hand_root"
+    ],
+    "joints": [
+      {
+        "name": "hand_right_f11_joint",
+        "path": "/liberhand_right/joints/hand_right_f11_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f12_joint",
+        "path": "/liberhand_right/joints/hand_right_f12_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f13_joint",
+        "path": "/liberhand_right/joints/hand_right_f13_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f14_joint",
+        "path": "/liberhand_right/joints/hand_right_f14_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      },
+      {
+        "name": "hand_right_f21_joint",
+        "path": "/liberhand_right/joints/hand_right_f21_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f22_joint",
+        "path": "/liberhand_right/joints/hand_right_f22_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f23_joint",
+        "path": "/liberhand_right/joints/hand_right_f23_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f24_joint",
+        "path": "/liberhand_right/joints/hand_right_f24_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      },
+      {
+        "name": "hand_right_f31_joint",
+        "path": "/liberhand_right/joints/hand_right_f31_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f32_joint",
+        "path": "/liberhand_right/joints/hand_right_f32_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f33_joint",
+        "path": "/liberhand_right/joints/hand_right_f33_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      },
+      {
+        "name": "hand_right_f34_joint",
+        "path": "/liberhand_right/joints/hand_right_f34_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      },
+      {
+        "name": "hand_right_f41_joint",
+        "path": "/liberhand_right/joints/hand_right_f41_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f42_joint",
+        "path": "/liberhand_right/joints/hand_right_f42_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f43_joint",
+        "path": "/liberhand_right/joints/hand_right_f43_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      },
+      {
+        "name": "hand_right_f44_joint",
+        "path": "/liberhand_right/joints/hand_right_f44_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      },
+      {
+        "name": "hand_right_f51_joint",
+        "path": "/liberhand_right/joints/hand_right_f51_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f52_joint",
+        "path": "/liberhand_right/joints/hand_right_f52_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f53_joint",
+        "path": "/liberhand_right/joints/hand_right_f53_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 3.0,
+        "drive_damping": 0.10000000149011612,
+        "drive_max_force": 1.0,
+        "armature": 0.00019999999494757503,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": false
+      },
+      {
+        "name": "hand_right_f54_joint",
+        "path": "/liberhand_right/joints/hand_right_f54_joint",
+        "type": "PhysicsRevoluteJoint",
+        "drive_stiffness": 0.0,
+        "drive_damping": 0.0,
+        "drive_max_force": 1.0,
+        "armature": 0.0,
+        "limit_low": null,
+        "limit_high": null,
+        "has_mimic": true
+      }
+    ],
+    "gravity": null,
+    "articulation_root": "/liberhand_right/hand_root/hand_root"
+  }
+}

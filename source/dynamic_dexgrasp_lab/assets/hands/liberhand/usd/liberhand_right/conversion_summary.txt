@@ -1,0 +1,6 @@
+hand: liberhand_right
+usd: /home/ccs/repositories/dynamic_dexgrasp_lab/source/dynamic_dexgrasp_lab/assets/hands/liberhand/usd/liberhand_right/liberhand_right.usd
+joints: 20 total | 13 actuated | 7 mimic
+bodies: 22
+articulation root: /liberhand_right/hand_root/hand_root
+done.

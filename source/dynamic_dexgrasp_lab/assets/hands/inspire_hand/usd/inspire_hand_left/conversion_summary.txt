@@ -1,0 +1,6 @@
+hand: inspire_hand_left
+usd: /home/ccs/repositories/dynamic_dexgrasp_lab/source/dynamic_dexgrasp_lab/assets/hands/inspire_hand/usd/inspire_hand_left/inspire_hand_left.usd
+joints: 12 total | 6 actuated | 6 mimic
+bodies: 14
+articulation root: /inspire_hand_left/hand_root/hand_root
+done.
